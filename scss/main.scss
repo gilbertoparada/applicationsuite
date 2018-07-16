@@ -1,14 +1,14 @@
 // main scss file
 
-// variables
-// ---------
-@import "variables/colors";
-@import "variables/typography";
-
 // reset & base
 // ------------
 @import "base/reset";
 @import "base/utility";
+
+// variables
+// ---------
+@import "variables/colors";
+@import "variables/typography";
 
 // layout
 // ------
