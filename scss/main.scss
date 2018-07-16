@@ -1,14 +1,19 @@
-// Modules and Variables
-// @import "partials/base";
+// main scss file
 
-// Partials
-// @import "partials/reset";
-// @import "partials/typography";
-// @import "partials/buttons";
-// @import "partials/figures";
-// @import "partials/grids";
-// ...
+// variables
+// ---------
+@import "variables/colors";
+@import "variables/typography";
 
-// Third-party
-// @import "vendor/colorpicker";
-// @import "vendor/jquery.ui.core";
+// reset & base
+// ------------
+@import "base/reset";
+@import "base/utility";
+
+// layout
+// ------
+@import "layout/grid";
+
+// objects
+// -------
+@import "objects/nav";
