@@ -10,6 +10,7 @@
   & > div {
     display: inline-block;
     vertical-align: middle;
+    width: 99%;
   }
   &:before {
     content: "";
@@ -19,15 +20,16 @@
   }
   ul {
     list-style-type: none;
+    display: inline-block;
     li {
       display: inline-block;
     }
-    .nav-logo {
-      
-    }
-    .nav-list {
-
-    }
+  &.nav-logo {
+    float:left;
+  }
+  &.nav-list {
+    float: right;
+  }
   }
 
 
