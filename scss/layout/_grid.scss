@@ -4,6 +4,12 @@ $breakpoint-small: 33.75em; // 540px
 $breakpoint-med: 45em; // 720px
 $breakpoint-large: 60em; // 960px
 
+$x-height: 72px;
+
+.page-wrapper {
+  padding-top: $x-height;
+}
+
 .container {
   width: 90%;
   margin-top: 2em;
