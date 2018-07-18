@@ -18,12 +18,12 @@ $x-height: 72px;
   margin-right: auto;
 
   @media only screen and (min-width: $breakpoint-small) {
-    width: 80%;
+    width: 90%;
   }
 
   @media only screen and (min-width: $breakpoint-large) {
-    width: 75%;
-    max-width: 90%;
+    width: 85%;
+    max-width: 85%;
   }
 }
 

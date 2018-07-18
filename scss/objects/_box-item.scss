@@ -7,14 +7,19 @@
 
     &:before {
       content: " ico";
-      width: 35px;
+      width: 40px;
       background: red;
       position: relative;
       display: inline-block;
       vertical-align: middle;
       height: 100%;
+      text-align: center;
     }
 
+  }
+
+  p, li {
+    padding-left: 2.5em;
   }
 
 }
