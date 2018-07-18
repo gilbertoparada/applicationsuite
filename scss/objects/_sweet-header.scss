@@ -1,7 +1,9 @@
 .sweet-header {
-  // padding-bottom: 2em;
+  padding-top: $x-height;
+  padding-bottom: ($x-height) * .25;
   span {
     position: relative;
+    text-decoration: line-through;
     &:after {
       content: "";
       background-image: url(../images/sweet.png);
@@ -10,14 +12,19 @@
       background-position-x: 1px;
       background-origin: content-box;
       overflow: visible;
-      background-size: 100%;
+      background-size: 50%;
       background-repeat: no-repeat;
-      background-position-y: 1px;
       width: 3.5em;
       position: absolute;
-      left: 0;
+      left: 75px;
       bottom: -80px;
+      @media only screen and (min-width: $breakpoint-large) {
+        background-size: 100%;
+        left: 0;
+        bottom: -80px;
+      }
     }
+
   }
 
 }
