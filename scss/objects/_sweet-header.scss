@@ -1,0 +1,23 @@
+.sweet-header {
+  // padding-bottom: 2em;
+  span {
+    position: relative;
+    &:after {
+      content: "";
+      background-image: url(../images/sweet.png);
+      display: inline-block;
+      height: 2.25em;
+      background-position-x: 1px;
+      background-origin: content-box;
+      overflow: visible;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-y: 1px;
+      width: 3.5em;
+      position: absolute;
+      left: 0;
+      bottom: -80px;
+    }
+  }
+
+}

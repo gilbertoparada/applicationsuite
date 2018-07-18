@@ -12,14 +12,23 @@
     -moz-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-  &.blue {
+  &.button-blue {
     background-color: white;
     border: 3px solid $sd-blue;
     color: $sd-blue;
+    &:hover {
+      background-color: $sd-blue;
+      color: white;
+    }
   }
-  &:hover {
-  	background-color: $sd-blue;
-    color: white;
+  &.button-yellow {
+    background-color: transparent;
+    border: 3px solid $sd-yellow;
+    color: $sd-yellow;
+    &:hover {
+    	background-color: $sd-yellow;
+      color: $primary-color;
+    }
   }
 
   &:active {
