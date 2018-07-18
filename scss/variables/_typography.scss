@@ -49,13 +49,14 @@ h6 {
 
 p {
   font-size: 1rem;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-regular;
   line-height: 1.8;
 }
 
 a {
   letter-spacing: .1em;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-regular;
+  color: $sd-blue;
 }
 
 .font-light {
