@@ -8,11 +8,3 @@ window.onscroll = function() {
         nav.classList.remove("nav-shadow");
     }
 }
-
-
-
-
-// window.onload = function(){
-//   changeClass = document.getElementById(navbar);
-//   document.addEventListener('scroll', scrollY, false);
-// }
